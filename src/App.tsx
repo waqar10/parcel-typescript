@@ -1,6 +1,6 @@
 import * as React from "react";
 import First from "./components/First";
-import Second from "./components/Second";
+
 
 export default () => {
   return (
