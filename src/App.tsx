@@ -1,12 +1,18 @@
-import * as React from "react";
-import First from "./components/First";
+import * as React from 'react';
+import Header from "./components/Header";
+import Content from "./components/Content";
+import Footer from "./components/Footer";
+import Todo from "./components/todos/Todo";
+
 
 
 export default () => {
   return (
     <div>
-      <First name="This is the first Component" age='23' college="HHS" />
-      <First name="This is the second Component" />
+      <Header />
+      <Content />
+      <Todo />
+      <Footer />
     </div>
 
   );
